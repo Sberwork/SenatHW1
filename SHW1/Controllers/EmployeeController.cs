@@ -25,7 +25,10 @@ namespace SHW1.Controllers
                 LastName = "Hamidov",
                 DateToday = DateTime.Now.ToLocalTime()
             };
-
+            if (id <= 0)
+            {
+                return NotFound();
+            }
             return Ok(employee);
         }
     }
