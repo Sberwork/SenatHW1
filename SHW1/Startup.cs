@@ -59,7 +59,7 @@ namespace SHW1
 
         public Task SendResponseAsync(IDictionary<string, object> environment)
         {
-            string responseText = "Hello Sber's SENAT Team! Mentors! You are the best of the best! Thank YOU for support!";
+            string responseText = "Hello Sber's SENAT Team! Mentors! You are the best of the best! Thank YOU for support!\n Please Enter https://localhost:44364/api/employee/1 or any other id";
 
             byte[] responseBytes = Encoding.UTF8.GetBytes(responseText);
 
