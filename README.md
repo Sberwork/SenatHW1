@@ -15,6 +15,11 @@
 
 Дополнительно: при желании можно попробовать развернуть при ложение через средства Visual Studio или через явный вызов утилиты msdeploy
 
+Check this site online:
+
+https://senatapi.azurewebsites.net/
+
+
 ![Image](SHW1_IIS.jpg)
 
 https://localhost:44364/api/employee/1
